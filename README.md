@@ -55,9 +55,17 @@ São comparadas (i) **entre si** sobre o corpus inteiro, em três cortes, e (ii)
 │   ├── ARQUITETURA.md         # documentação técnica do pipeline e dos artefatos
 │   ├── guia_anotacao.md       # guia de anotação (definição dos rótulos)
 │   └── Proposta_PLN.docx      # proposta original
-├── explorador/                # visualização estática interativa (5 visões, abre por duplo-clique)
+├── explorador/                # visualização estática interativa (5 visões)
+│   ├── index.html             # entrada local/offline do explorador
+│   ├── data*.js               # dados embutidos das visões
+│   ├── js/                    # lógica das visões
+│   └── README.md              # regeneração dos dados do explorador
 └── apps/
-    ├── anotador/              # interface de anotação argumentativa
+    ├── anotador/              # ambiente estático de anotação argumentativa
+    │   ├── index.html         # entrada local/offline do anotador
+    │   ├── data.js            # recorte de 60 notas para anotação
+    │   ├── app.js             # lógica de marcação/exportação
+    │   └── readme.md          # instruções de deploy e uso
     └── bio-converter/         # conversão de spans → BIO/CoNLL
 ```
 
@@ -87,6 +95,14 @@ servidor). Cinco visões: *Conjunto* (panorama do corpus), *Explorador de notas*
 (tokens)*, *Navegador de entidades* e *Painel de achados*. As visões também estão disponíveis em
 [`explorador-argumentos.netlify.app`](https://explorador-argumentos.netlify.app/). Para regenerar
 os dados embutidos, veja `explorador/README.md`.
+
+### Anotador (ambiente de anotação)
+
+O ambiente de anotação humana também é estático. Ele pode ser aberto localmente em
+**`apps/anotador/index.html`** e está publicado em
+[`anotador-argumentos.netlify.app`](https://anotador-argumentos.netlify.app/). A interface usa o
+recorte de 60 notas em `apps/anotador/data.js` e exporta as marcações para posterior conversão em
+BIO/CoNLL.
 
 ## Dados
 
