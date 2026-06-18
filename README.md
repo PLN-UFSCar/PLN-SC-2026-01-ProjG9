@@ -84,8 +84,9 @@ python -m spacy download pt_core_news_md
 
 Abra **`explorador/index.html`** com duplo-clique — é estático e funciona offline (sem
 servidor). Cinco visões: *Conjunto* (panorama do corpus), *Explorador de notas*, *BIO
-(tokens)*, *Navegador de entidades* e *Painel de achados*. Para regenerar os dados embutidos,
-veja `explorador/README.md`.
+(tokens)*, *Navegador de entidades* e *Painel de achados*. As visões também estão disponíveis em
+[`explorador-argumentos.netlify.app`](https://explorador-argumentos.netlify.app/). Para regenerar
+os dados embutidos, veja `explorador/README.md`.
 
 ## Dados
 
