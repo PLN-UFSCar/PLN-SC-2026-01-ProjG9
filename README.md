@@ -104,6 +104,11 @@ dependências (`sintaxe_json`). O **dicionário de colunas** está em
 
 ## Licença e uso
 
-Trabalho acadêmico. O texto das notas pertence ao Community Notes / X e ao conjunto
-`histlearn/notas-comunidade-ptbr`; respeite os termos da fonte. Código e documentação deste
-repositório são de uso acadêmico pelos autores. Defina a licença antes de publicar.
+Trabalho acadêmico desenvolvido para a disciplina de Processamento de Linguagem Natural
+(UFSCar, 2026/1). O código e a documentação deste repositório são disponibilizados para
+consulta, avaliação e reprodução dos experimentos no contexto da disciplina.
+
+Os textos das notas derivam do Community Notes / X e do conjunto público
+[`histlearn/notas-comunidade-ptbr`](https://huggingface.co/datasets/histlearn/notas-comunidade-ptbr);
+o uso deve respeitar os termos e licenças dessas fontes. Materiais, modelos, bibliotecas e dados
+de terceiros mantêm suas próprias licenças e são citados nos arquivos correspondentes.
