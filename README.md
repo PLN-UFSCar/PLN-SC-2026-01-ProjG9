@@ -106,8 +106,8 @@ dependências (`sintaxe_json`). O **dicionário de colunas** está em
 ## Licença e uso
 
 Trabalho acadêmico desenvolvido para a disciplina de Processamento de Linguagem Natural
-(UFSCar, 2026/1). O código e a documentação deste repositório são disponibilizados para
-consulta, avaliação e reprodução dos experimentos no contexto da disciplina.
+(UFSCar, 2026/1). O código e a documentação produzidos pelos autores estão disponíveis sob a
+licença MIT; veja [`LICENSE`](LICENSE).
 
 Os textos das notas derivam do Community Notes / X e do conjunto público
 [`histlearn/notas-comunidade-ptbr`](https://huggingface.co/datasets/histlearn/notas-comunidade-ptbr);
